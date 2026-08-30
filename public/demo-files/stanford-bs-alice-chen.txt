@@ -1,0 +1,14 @@
+STANFORD UNIVERSITY — OFFICIAL CERTIFICATE OF DEGREE
+=====================================================
+Recipient:            Alice Chen
+Student ID:           SU-994021
+Degree Conferred:     Bachelor of Science in Computer Science
+Major/Specialization: Systems & Autonomous Robotics
+Grade:                3.96 / 4.00 (High Honors)
+Honors:                Summa Cum Laude
+Department Seal:      Office of Academic Affairs
+Issuance Date:        2026-06-12
+
+This document is bound to the TrustChain Ledger via the SHA-256 digest
+of these exact bytes. Any modification — including whitespace — changes
+the digest and breaks verification.
