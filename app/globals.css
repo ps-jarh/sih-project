@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", "IBM Plex Mono", Menlo, Consolas, monospace;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: rgba(59, 107, 245, 0.35);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #252f45 transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #252f45;
+  border-radius: 999px;
+}
+
+:focus-visible {
+  outline: 2px solid #3b6bf5;
+  outline-offset: 2px;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+.status-dot {
+  animation: pulse-dot 2.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-dot { animation: none; }
+}
